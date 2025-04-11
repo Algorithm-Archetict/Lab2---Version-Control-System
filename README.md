@@ -7,3 +7,7 @@ git branch -d test
 ### To delete the 2 created branches remotely (dev , test):
 git push origin --delete main
 git push origin --delete test
+
+### Leightweght Tag vs. Annotated Tag
+- Each of both is a references to commit
+- Annotated Tag also contains metadata (tagger (his username and his password), date, message)
